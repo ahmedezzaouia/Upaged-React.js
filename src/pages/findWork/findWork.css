@@ -1,0 +1,57 @@
+.findWork{
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shiftWrapper{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 30px;
+}
+
+.shiftTitle{
+    font-size: 1.363rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    opacity: .8;
+}
+.newInvitationAlert{
+    font-weight: 500;
+    opacity: .8;
+    margin-bottom: 10px;
+}
+.activeOppurtunities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.datePicker{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+.arrowLeft, .arrowRight{
+    border: 1px solid #29334f4d;
+    border-radius: 4px;
+    color: #29334f;
+    padding:4px 10px;
+    opacity: .2;
+    cursor: pointer;
+}
+.weeklySchedule{
+    font-weight: 700;
+    color: #29334f;
+    opacity: .8;
+}
+.activeOppurtunities{
+    width: 100%;
+    max-width: 1024px;
+}

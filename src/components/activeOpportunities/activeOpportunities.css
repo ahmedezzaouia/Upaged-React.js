@@ -1,0 +1,77 @@
+
+.activeOpportunitiesContainers{
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    border-left: 10px solid #29334f;
+    box-shadow: 2px 2px 3px #e3e5e9;
+    margin-bottom: 15px;
+}
+
+.activeOpportunitiesDesc{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:15px;
+    color: #29334f;
+}
+.activeOpportunitiesDate{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.activeOpportunitiesDate .Icon{
+    margin-left: 5px;
+}
+.activeOpportunitiesTime, .activeOpportunitiesUnit{
+    font-size: 13px;
+    opacity: .8;
+}
+.activeOpportunitiesPrice{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.activeOpportunitiesHospitalInfo{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:15px;
+    border-left: 3px solid #f0ebeb;
+    color: #29334f;
+}
+.activeOpportunitieshospitalName{
+    font-size: 15px;
+}
+.activeOpportunitieshospitalRate{
+    color: gold;
+}
+.activeOpportunitieshospitalAddress{
+    max-width: 125px;
+    font-size: 13px;
+    opacity: .8;
+}
+.activeOpportunitiesRequestButton{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+
+}
+.requestApply{
+    border: 2px solid #29334f;
+    background-color: #29334f;
+    border-radius: 3px;
+    color: white;
+    margin-right: 40px;
+    padding: 6px 15px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}

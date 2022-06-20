@@ -1,0 +1,81 @@
+
+.newInvitationContainers{
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    border-left: 10px solid #3AEBB6;
+    box-shadow: 2px 2px 3px #e3e5e9;
+    margin-bottom: 15px;
+}
+
+.newInvitationDesc{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:15px;
+    color: #29334f;
+}
+.newInvitationDate{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.newInvitationTime, .newInvitationUnit{
+    font-size: 13px;
+    opacity: .8;
+}
+.newInvitationPrice{
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.newInvitationHospitalInfo{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    border-left: 3px solid #f0ebeb;
+    color: #29334f;
+}
+.hospitalName{
+    font-size: 15px;
+}
+.hospitalRate{
+    color: gold;
+}
+.hospitalAddress{
+    max-width: 125px;
+    font-size: 13px;
+    opacity: .8;
+}
+.newInvitationRequestButton{
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+.requestDecline{
+border: 2px solid #29334f;
+border-radius: 3px;
+background-color: white;
+color: #29334f;
+padding: 6px 10px;
+font-size: 12px;
+font-weight: 500;
+cursor: pointer;
+}
+.newInvitationRequestButton .requestApply{
+    border: 2px solid #29334f;
+    background-color: #29334f;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 18px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+  
+}

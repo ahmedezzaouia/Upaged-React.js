@@ -1,0 +1,71 @@
+
+.Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #e3e5e9;
+}
+.NavContainer{
+    height: 60px;
+    width: 100%;
+    max-width: 1024px;
+    color: #36435f;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.NavLogo{
+    flex: 2;
+}
+.NavLogo>img{
+    height: 38px;
+    width: 146px;
+}
+.NavLinks{
+    display: flex;
+    gap: 50px;
+    flex: 7;
+}
+.NavLinks>a{
+    color: #36435f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.NavItems{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.NavItems .userInfo{
+box-shadow: 0px 0px 2px 2px #e3e5e9;
+border-radius: 100%;
+position: relative;
+padding: 2px;
+}
+.userImg{
+    height: 35px;
+    width: 35px;
+}
+.circleCheck{
+    color: #3AEBB6;
+    position: absolute;
+    height: 20px;
+    left: -8px;
+    bottom: 0;
+}
+.NavItems .userLogOut>a{
+    color: #36435f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
